@@ -1,0 +1,31 @@
+Ustreamの配信状況をチェックして、配信されていたらメール通知するスクリプト。
+
+cronなどで1分おきぐらいに実行。
+
+Ustreamデベロッパーキーが必要。http://developer.ustream.tv/user/register
+
+== 必要なライブラリ
+
+  gem install pony
+
+== 設定ファイル
+
+config.yml.sample をconfig.yml にリネームして編集する。
+
+  # Ustreamのチャンネル名
+  channels: 
+      - momoclotv
+
+  # Ustream APIのデベロッパーキー
+  key: 
+
+  # メール宛先
+  mail_to: 
+
+  # メール経由先
+  mail_address: smtp.gmail.com
+  mail_port: 587
+  mail_user_name: 
+  mail_password: 
+  mail_domain: gmail.com
+
