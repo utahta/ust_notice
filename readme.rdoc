@@ -1,6 +1,6 @@
 Ustreamの配信状況をチェックして、配信されていたらメール通知するスクリプト。
 
-cronなどで1分おきぐらいに実行。
+cronなどで1分おきぐらいに実行したらいいと思います。
 
 Ustreamデベロッパーキーが必要。http://developer.ustream.tv/user/register
 
@@ -10,7 +10,7 @@ Ustreamデベロッパーキーが必要。http://developer.ustream.tv/user/regi
 
 == 設定ファイル
 
-config.yml.sample をconfig.yml にリネームして編集する。
+config.yml を編集します。
 
   # Ustreamのチャンネル名
   channels: 
